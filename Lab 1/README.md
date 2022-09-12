@@ -69,16 +69,27 @@ _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening th
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 
-\*\***Describe your setting, players, activity and goals here.**\*\*
+\*\***Describe your setting, players, activity and goals here.** \*\*
+
+ - The scenario I'm thinking about is monitoring workout movements. So you have the correct moves in database as they have trained models from computer vision technology. And whenever you look towards a screen or a mirror and stand in the correct spot, it will tell you whether you're doing the correct moves or not. And if the movement is correct, it will pass and probably show a green light; if not, it will show a red sign and maybe an alarm sound.  
+
+
 
 Storyboards are a tool for visually exploring a users interaction with a device. They are a fast and cheap method to understand user flow, and iterate on a design before attempting to build on it. Take some time to read through this explanation of [storyboarding in UX design](https://www.smashingmagazine.com/2017/10/storyboarding-ux-design/). Sketch seven storyboards of the interactions you are planning. **It does not need to be perfect**, but must get across the behavior of the interactive device and the other characters in the scene. 
 
 \*\***Include pictures of your storyboards here**\*\*
+![My Image](image/1.JPG)
+![My Image](image/1-2.JPG)
+![My Image](image/4.JPG)
+![My Image](image/5.JPG)
+![My Image](image/6.JPG)
+![My Image](image/7.JPG)
+![My Image](image/8.JPG)
 
 Present your ideas to the other people in your breakout room (or in small groups). You can just get feedback from one another or you can work together on the other parts of the lab.
 
 \*\***Summarize feedback you got here.**\*\*
-
+ - they said it's a great idea for maybe self workout without trainers. 
 
 ## Part B. Act out the Interaction
 
@@ -86,8 +97,11 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 \*\***Are there things that seemed better on paper than acted out?**\*\*
 
+ - I feel like on paper I don‘t need to think about angles and scales, but in reality with actual acting out the interaction, I need to get the right angle to make sure the screen monitor can track my movements. I made an interactive program with my partner back in undergrad with google teachable machine cv image models. And we need to adjust user position to fit the screen.
+
 \*\***Are there new ideas that occur to you or your collaborators that come up from the acting?**\*\*
 
+ - new ideas are like we can switch the image detect models to motion control models so that it can be more flexible and we might need a larger screen like a mirror instead of a laptop so that it can be more convenient for users to act the workout moves.
 
 ## Part C. Prototype the device
 
@@ -101,16 +115,22 @@ If you run into technical issues with this tool, you can also use a light switch
 
 \*\***Give us feedback on Tinkerbelle.**\*\*
 
+ - tinkerbelle tool is really cool, but for myself the program couldn't run in the first place because my environment is in conda so I need to change some variables. And without help, it might be a bit difficult to set up the environment if others run into similar issues.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+ - As I'm not sure how to set up my device and apparently I'm not using Tinkerbelle, I will describe my process of remote control. For example, a trainer can remotely set the order and number of poses on the device to acheive a certain training goal for the user. And after that, the trainer can look at the score of the user's performance after one workout and give feedback. 
+
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
+
 
 \*\***Show the follow-up work here.**\*\*
 
+ - instead of randomly switching movements, there could be someone remotely control which pose they should do. 
+![My Image](image/2.JPG)
 
 ## Part E. Costume the device
 
@@ -120,16 +140,24 @@ Think about the setting of the device: is the environment a place where the devi
 
 \*\***Include sketches of what your devices might look like here.**\*\*
 
+![My Image](image/3.JPG)
+
 \*\***What concerns or opportunitities are influencing the way you've designed the device to look?**\*\*
 
+ - The concern is that for daylight mode, the light might not be that obvious for users to observe and follow, so might need to set up brighter color.
+
+ - The opportunities can be exercise at home and if ever quarantine happens again, trainers can preload the training on the device and ask the users to finish it by themselves.
 
 ## Part F. Record
 
 \*\***Take a video of your prototyped interaction.**\*\*
 
+ - Here is the [video](https://drive.google.com/file/d/1FOjjraOnAWeBPohgGYckHrOkl93GUCFK/view?usp=sharing)
+
 \*\***Please indicate anyone you collaborated with on this Lab.**\*\*
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
+ - My undergrad partner Rebecca Wei!! We made the small program together.
 
 
 # Staging Interaction, Part 2 
@@ -142,6 +170,8 @@ This describes the second week's work for this lab activity.
 You will be assigned three partners from another group. Go to their github pages, view their videos, and provide them with reactions, suggestions & feedback: explain to them what you saw happening in their video. Guess the scene and the goals of the character. Ask them about anything that wasn’t clear. 
 
 \*\***Summarize feedback from your partners here.**\*\*
+
+My partners and peer reviews told me that my storyboards were not quite clear, thus I changed mine into five different scenarios. 
 
 ## Make it your own
 

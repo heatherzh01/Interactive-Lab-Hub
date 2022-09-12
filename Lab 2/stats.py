@@ -69,6 +69,7 @@ while True:
     # Shell scripts for system monitoring from here:
     # https://unix.stackexchange.com/questions/119126/command-to-display-memory-usage-USD-usage-and-WTTR-load
     cmd = "hostname -I | cut -d' ' -f1"
+    # cmd = "date"
     IP = "IP: " + subprocess.check_output(cmd, shell=True).decode("utf-8")
     cmd = "curl -s wttr.in/?format=2"
     WTTR = subprocess.check_output(cmd, shell=True).decode("utf-8")

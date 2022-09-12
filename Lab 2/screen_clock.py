@@ -79,10 +79,10 @@ while True:
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     # cmd = "date"
     # date_time = "Clock: " + subprocess.check_output(cmd, shell=True).decode("utf-8")
-    # date_time = "Clock: " + strftime("%m/%d/%Y %H:%M:%S")
+    date_time = "Clock: " + strftime("%m/%d/%Y %H:%M:%S")
     y = top
     # draw.text((x, y), date_time, font=font, fill="#FFFFFF")
-    # y += font.getsize(date_time)[1]
+    y += font.getsize(date_time)[1]
     draw.text((x, y), timer, font=font, fill="#FFFF00")
 
     

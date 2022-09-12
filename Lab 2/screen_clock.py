@@ -5,12 +5,14 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
+import random
+
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = None
-
+t = 0
 # Config for display baudrate (default max is 24mhz):
 BAUDRATE = 64000000
 
@@ -64,13 +66,35 @@ backlight.value = True
 while True:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    mins, secs = divmod(t, 60)
+    timer = '{:02d}:{:02d}'.format(mins, secs)
+    t += 1
+    r = random.randint(0,255)
+    g = random.randint(0,255)
+    b = random.randint(0,255)
 
+    if t%10 ==0:
+        draw.rectangle((0, 0, width, height), outline=0, fill=(r,g,b))
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     # cmd = "date"
     # date_time = "Clock: " + subprocess.check_output(cmd, shell=True).decode("utf-8")
     date_time = "Clock: " + strftime("%m/%d/%Y %H:%M:%S")
     y = top
     draw.text((x, y), date_time, font=font, fill="#FFFFFF")
+    y += font.getsize(date_time)[1]
+    draw.text((x, y), timer, font=font, fill="#FFFF00")
+
+    
+    # print(timer, end="\r")
+    time.sleep(1)
+    
+
+    
+
+
+
+
+
     # Display image.
     disp.image(image, rotation)
-    # time.sleep(1)
+    time.sleep(1)

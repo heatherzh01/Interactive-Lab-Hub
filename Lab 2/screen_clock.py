@@ -1,4 +1,5 @@
 import time
+from time import strftime, sleep
 import subprocess
 import digitalio
 import board
@@ -65,8 +66,9 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
-    cmd = "date"
-    date_time = "Clock: " + subprocess.check_output(cmd, shell=True).decode("utf-8")
+    # cmd = "date"
+    # date_time = "Clock: " + subprocess.check_output(cmd, shell=True).decode("utf-8")
+    date_time = "Clock: " + strftime("%m/%d/%Y %H:%M:%S")
     y = top
     draw.text((x, y), date_time, font=font, fill="#FFFFFF")
     # Display image.

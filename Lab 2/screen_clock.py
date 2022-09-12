@@ -73,6 +73,7 @@ while True:
     g = random.randint(0,255)
     b = random.randint(0,255)
 
+    # Change color for background in every 5 seconds for reminder!
     if t%5 ==1 and t!=1:
         draw.rectangle((0, 0, width, height), outline=0, fill=(r,g,b))
         draw.text((5,5), '5 seconds')

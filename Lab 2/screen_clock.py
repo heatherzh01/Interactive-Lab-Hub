@@ -73,21 +73,21 @@ while True:
     g = random.randint(0,255)
     b = random.randint(0,255)
 
-    if t%5 ==1:
+    if t%5 ==1 and t!=1:
         draw.rectangle((0, 0, width, height), outline=0, fill=(r,g,b))
         draw.text((5,5), '5 seconds')
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 
     # cmd = "date"
     # date_time = "Clock: " + subprocess.check_output(cmd, shell=True).decode("utf-8")
-    date_time = "Clock: " + strftime("%m/%d/%Y %H:%M:%S")
+    # date_time = "Clock: " + strftime("%m/%d/%Y %H:%M:%S")
     y = top
     # draw.text((x, y), date_time, font=font, fill="#FFFFFF")
-    y += font.getsize(date_time)[1]
+    # y += font.getsize(date_time)[1]
     draw.text((x, y), timer, font=font, fill="#FFFF00")
 
     
     # print(timer, end="\r")
-    time.sleep(1)
+    # time.sleep(1)
     
 
     

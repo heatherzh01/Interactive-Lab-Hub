@@ -12,7 +12,7 @@ import random
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
 reset_pin = None
-t = 1
+t = 0
 # Config for display baudrate (default max is 24mhz):
 BAUDRATE = 64000000
 
@@ -73,7 +73,7 @@ while True:
     g = random.randint(0,255)
     b = random.randint(0,255)
 
-    if t%5 ==0:
+    if t%5 ==1:
         draw.rectangle((0, 0, width, height), outline=0, fill=(r,g,b))
         draw.text((5,5), '5 seconds')
     #TODO: Lab 2 part D work should be filled in here. You should be able to look in cli_clock.py and stats.py 

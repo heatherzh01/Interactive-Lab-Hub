@@ -9,10 +9,13 @@ It is worth spending a little time thinking about how you mark time, and what wo
 **Please indicate anyone you collaborated with on this Lab here.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
 
-Aashika 
-Runze
+Aashika & Runze
 
 They suggested that I can change this and extend this into a social media thing. I can use the buttons to toggle through friends list and people can type in their time zone and color(mood-represented) or availability and maybe emoji of what they’re doing. 
+
+Anjali
+
+Anjali suggested that I can add a message option as well. And also change the mood color into gradient so that it is a smoother transition. 
 
 ## Prep
 

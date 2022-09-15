@@ -11,11 +11,7 @@ Be generous in acknowledging their contributions! And also recognizing any other
 
 Aashika & Runze
 
-They suggested that I can change this and extend this into a social media thing. I can use the buttons to toggle through friends list and people can type in their time zone and color(mood-represented) or availability and maybe emoji of what they’re doing. 
-
 Anjali
-
-Anjali suggested that I can add a message option as well. And also change the mood color into gradient so that it is a smoother transition. 
 
 ## Prep
 
@@ -231,6 +227,14 @@ https://user-images.githubusercontent.com/111881174/189668651-c8fbeda5-4068-4574
   
 
 2. Look at and give feedback on the Part G. for at least 2 other people in the class (and get 2 people to comment on your Part G!)
+
+Aashika & Runze
+
+They suggested that I can change this and extend this into a social media thing. I can use the buttons to toggle through friends list and people can type in their time zone and color(mood-represented) or availability and maybe emoji of what they’re doing. 
+
+Anjali
+
+Anjali suggested that I can add a message option as well. And also change the mood color into gradient so that it is a smoother transition. 
 
 # Lab 2 Part 2
 

@@ -236,6 +236,10 @@ Anjali
 
 Anjali suggested that I can add a message option as well. And also change the mood color into gradient so that it is a smoother transition. 
 
+Jackie Liu:
+
+For some reason, being reminded every 5 seconds does give me a sense of urgency compared to a traditional clock. I think the idea you illustrated in part G is a really nice and sweet interpretation of long distance relationships. By adding this interaction, I do feel that more meanings and dimensions are added to this project. 
+
 # Lab 2 Part 2
 
 Pull Interactive Lab Hub updates to your repo.

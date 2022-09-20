@@ -247,6 +247,8 @@ Pull Interactive Lab Hub updates to your repo.
 
 Modify the code from last week's lab to make a new visual interface for your new clock. You may [extend the Pi](Extending%20the%20Pi.md) by adding sensors or buttons, but this is not required.
 
+I intended to add buttons into my original color-change 5 seconds timer clock. However, some bugs occur apparently and I'm still stuck at this moment. My idea was to first let users input two city names and mood color. Press button A to show the first city and time zone at that area and the mood color as a background, then button B vice versa works same with first user input with another city. One special feature is if user type in 'rainbow' for mood color, the background will randomly change color every 1 second(what I did in part1) to indicate that user is missing the other user in another time zone. Please please take a look at my code to see my efforts :):)
+
 As always, make sure you document contributions and ideas from others explicitly in your writeup.
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 

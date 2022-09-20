@@ -148,7 +148,8 @@ while True:
     if buttonA.value and not buttonB.value:  # just button B pressed
         # pass
         if person2 != 'rainbow':
-            disp.fill(color565(*list(webcolors.name_to_rgb(person2)))) # set the screen to the users color
+            draw.rectangle((0, 0, width, height), outline=0, fill=(color565(*list(webcolors.name_to_rgb(person2)))))
+            # disp.fill(color565(*list(webcolors.name_to_rgb(person2)))) # set the screen to the users color
         else:
             mins, secs = divmod(t, 60)
             timer = '{:02d}:{:02d}'.format(mins, secs)

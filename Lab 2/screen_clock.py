@@ -116,9 +116,9 @@ city1_text = "Current time in %s is %s" % (city1, city1_time.strftime(fmt))
 city2 = input('Type the second city and hit enter: ')
 person2 = input('Type in current mood color and hit enter: ')
 city_two_list = [i for i in city2tz[city2]]
-city1_time = datetime.now(pytz.timezone(city_one_list[-1]))
-city1_zone = "%s is in %s timezone" % (city1, city_one_list[-1])
-city1_text = "Current time in %s is %s" % (city1, city1_time.strftime(fmt))
+city2_time = datetime.now(pytz.timezone(city_two_list[-1]))
+city2_zone = "%s is in %s timezone" % (city2, city_two_list[-1])
+city2_text = "Current time in %s is %s" % (city2, city2_time.strftime(fmt))
 
 # # Main loop:
 while True:
@@ -129,8 +129,6 @@ while True:
 #     else:
 #         backlight.value = True  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
-        draw.text((5,5), city1_zone)
-        draw.text((10,5), city1_text)
         if person1 != 'rainbow':
             disp.fill(person1) # set the screen to the users color
         else:
@@ -143,9 +141,25 @@ while True:
             # Change color for background in every 5 seconds for reminder!
             if t%1 ==1 and t!=1:
                 draw.rectangle((0, 0, width, height), outline=0, fill=(r,g,b))
+        draw.text((5,5), city1_zone)
+        draw.text((10,5), city1_text)
 
     if buttonA.value and not buttonB.value:  # just button B pressed
-        pass
+        # pass
+        if person2 != 'rainbow':
+            disp.fill(person2) # set the screen to the users color
+        else:
+            mins, secs = divmod(t, 60)
+            timer = '{:02d}:{:02d}'.format(mins, secs)
+            t += 1
+            r = random.randint(0,255)
+            g = random.randint(0,255)
+            b = random.randint(0,255)
+            # Change color for background in every 5 seconds for reminder!
+            if t%1 ==1 and t!=1:
+                draw.rectangle((0, 0, width, height), outline=0, fill=(r,g,b))
+        draw.text((5,5), city2_zone)
+        draw.text((10,5), city2_text)
         # disp.fill(color565(255, 255, 255))  # set the screen to white
     # if not buttonA.value and not buttonB.value:  # none pressed
     #     disp.fill(color565(0, 255, 0))  # green

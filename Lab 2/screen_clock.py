@@ -123,14 +123,15 @@ city2_text = "Current time in %s is %s" % (city2, city2_time.strftime(fmt))
 t = 0
 while True:
     # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    # draw.rectangle((0, 0, width, height), outline=0, fill=0)
     if buttonA.value and buttonB.value:
         backlight.value = False  # turn off backlight
     else:
         backlight.value = True  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
         if person1 != 'rainbow':
-            disp.fill(color565(*list(webcolors.name_to_rgb(person1)))) # set the screen to the users color
+            draw.rectangle((0, 0, width, height), outline=0, fill=(color565(*list(webcolors.name_to_rgb(person1)))))
+            # disp.fill(color565(*list(webcolors.name_to_rgb(person1)))) # set the screen to the users color
         else:
             mins, secs = divmod(t, 60)
             timer = '{:02d}:{:02d}'.format(mins, secs)

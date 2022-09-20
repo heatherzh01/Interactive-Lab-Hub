@@ -4,9 +4,17 @@ import subprocess
 import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
+from adafruit_rgb_display.rgb import color565
 import adafruit_rgb_display.st7789 as st7789
 import random
-
+import webcolors
+import os
+from collections import defaultdict
+from datetime import datetime
+from urllib.request import urlretrieve
+from urllib.parse import urljoin
+from zipfile  import ZipFile
+import pytz # pip install pytz
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -73,15 +81,6 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
-import os
-from collections import defaultdict
-from datetime import datetime
-from urllib.request import urlretrieve
-from urllib.parse import urljoin
-from zipfile  import ZipFile
-
-import pytz # pip install pytz
-
 geonames_url = 'http://download.geonames.org/export/dump/'
 basename = 'cities15000' # all cities with a population > 15000 or capitals
 filename = basename + '.zip'
@@ -106,7 +105,7 @@ with ZipFile(filename) as zf, zf.open(basename + '.txt') as file:
 
 fmt = '%Y-%m-%d %H:%M:%S %Z%z'
 city1 = input('Type the first city and hit enter: ')
-person1 = input('Type in current mood color and hit enter: ') #if rainbow, starts blink
+person1 = input('Type in current mood color and hit enter: ')
 city_one_list = [i for i in city2tz[city1]]
 city1_time = datetime.now(pytz.timezone(city_one_list[-1]))
 city1_zone = "%s is in %s timezone" % (city1, city_one_list[-1])
@@ -130,7 +129,7 @@ while True:
 #         backlight.value = True  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
         if person1 != 'rainbow':
-            disp.fill(person1) # set the screen to the users color
+            disp.fill(color565(*list(webcolors.name_to_rgb(person1)))) # set the screen to the users color
         else:
             mins, secs = divmod(t, 60)
             timer = '{:02d}:{:02d}'.format(mins, secs)
@@ -147,7 +146,7 @@ while True:
     if buttonA.value and not buttonB.value:  # just button B pressed
         # pass
         if person2 != 'rainbow':
-            disp.fill(person2) # set the screen to the users color
+            disp.fill(color565(*list(webcolors.name_to_rgb(person2)))) # set the screen to the users color
         else:
             mins, secs = divmod(t, 60)
             timer = '{:02d}:{:02d}'.format(mins, secs)

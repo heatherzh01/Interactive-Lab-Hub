@@ -73,17 +73,6 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
-# # get a time from the user
-# screenTime1 = None
-# screenTime2 = None
-# while not screenTime1:
-#     try:
-#         # get two time zones from the user
-#         screenColor = color565(*list(webcolors.name_to_rgb(input('Type the name of a color and hit enter: '))))
-#     except ValueError:
-#         # catch colors we don't recognize and go again
-#         print("whoops I don't know that one")
-
 import os
 from collections import defaultdict
 from datetime import datetime
@@ -117,26 +106,44 @@ with ZipFile(filename) as zf, zf.open(basename + '.txt') as file:
 
 fmt = '%Y-%m-%d %H:%M:%S %Z%z'
 city1 = input('Type the first city and hit enter: ')
+person1 = input('Type in current mood color and hit enter: ') #if rainbow, starts blink
+city_one_list = [i for i in city2tz[city1]]
+city1_time = datetime.now(pytz.timezone(city_one_list[-1]))
+city1_zone = "%s is in %s timezone" % (city1, city_one_list[-1])
+city1_text = "Current time in %s is %s" % (city1, city1_time.strftime(fmt))
+
+
 city2 = input('Type the second city and hit enter: ')
-for tzname in city2tz[city]:
-    now = datetime.now(pytz.timezone(tzname))
-    # print("")
-    city_one = "%s is in %s timezone" % (city1, tzname)
-    c1_info = "Current time in %s is %s" % (city1, now.strftime(fmt))
-    city_two = "%s is in %s timezone" % (city2, tzname)
-    c2_info = "Current time in %s is %s" % (city2, now.strftime(fmt))
-    # print()
-    # print("Current time in %s is %s" % (city1, now.strftime(fmt)))
+person2 = input('Type in current mood color and hit enter: ')
+city_two_list = [i for i in city2tz[city2]]
+city1_time = datetime.now(pytz.timezone(city_one_list[-1]))
+city1_zone = "%s is in %s timezone" % (city1, city_one_list[-1])
+city1_text = "Current time in %s is %s" % (city1, city1_time.strftime(fmt))
+
 # # Main loop:
 while True:
+    # Draw a black filled box to clear the image.
+    draw.rectangle((0, 0, width, height), outline=0, fill=0)
 #     if buttonA.value and buttonB.value:
 #         backlight.value = False  # turn off backlight
 #     else:
 #         backlight.value = True  # turn on backlight
     if buttonB.value and not buttonA.value:  # just button A pressed
-        draw.text((5,5), city_one)
-        draw.text((10,5), c1_info)
-        # disp.fill(screenColor) # set the screen to the users color
+        draw.text((5,5), city1_zone)
+        draw.text((10,5), city1_text)
+        if person1 != 'rainbow':
+            disp.fill(person1) # set the screen to the users color
+        else:
+            mins, secs = divmod(t, 60)
+            timer = '{:02d}:{:02d}'.format(mins, secs)
+            t += 1
+            r = random.randint(0,255)
+            g = random.randint(0,255)
+            b = random.randint(0,255)
+            # Change color for background in every 5 seconds for reminder!
+            if t%1 ==1 and t!=1:
+                draw.rectangle((0, 0, width, height), outline=0, fill=(r,g,b))
+
     if buttonA.value and not buttonB.value:  # just button B pressed
         pass
         # disp.fill(color565(255, 255, 255))  # set the screen to white

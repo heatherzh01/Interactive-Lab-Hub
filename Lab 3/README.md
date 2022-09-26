@@ -118,7 +118,14 @@ The users in using my device would be players in playing cards(poker cards) game
 
 Find a partner, and *without sharing the script with your partner* try out the dialogue you've designed, where you (as the device designer) act as the device you are designing.  Please record this interaction (for example, using Zoom's record feature).
 
+
+
+https://user-images.githubusercontent.com/111881174/192360334-95d1f5a2-cfa5-4166-b17a-2595695f91d2.mp4
+
+
 \*\***Describe if the dialogue seemed different than what you imagined when it was acted out, and how.**\*\*
+
+I feel like the dialogue is pretty much similar to what I thought, but I can transfer it to a more smoother approach. I am acting as pi and I'm not supposed to say my card out loud, but I need to act it out so I have to say this is king. And I can actually gather more people to play this again to make the scene look more real. 
 
 ### Wizarding with the Pi (optional)
 In the [demo directory](./demo), you will find an example Wizard of Oz project. In that project, you can see how audio and sensor data is streamed from the Pi to a wizard controller that runs in the browser.  You may use this demo code as a template. By running the `app.py` script, you can see how audio and sensor data (Adafruit MPU-6050 6-DoF Accel and Gyro Sensor) is streamed from the Pi to a wizard controller that runs in the browser `http://<YouPiIPAddress>:5000`. You can control what the system says from the controller as well!

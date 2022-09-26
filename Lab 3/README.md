@@ -104,13 +104,15 @@ From a remote browser on the same network, check to make sure your webserver is 
 Storyboard and/or use a Verplank diagram to design a speech-enabled device. (Stuck? Make a device that talks for dogs. If that is too stupid, find an application that is better than that.) 
 
 \*\***Post your storyboard and diagram here.**\*\*
-![IMG_6700](https://user-images.githubusercontent.com/111881174/192197858-cfbbbd28-c733-4d88-bc97-ce52f078e2fb.JPG)
-![IMG_6701](https://user-images.githubusercontent.com/111881174/192197874-7dfbf3a1-87e6-48df-be1f-f409f7ec6f28.JPG)
-
 
 Write out what you imagine the dialogue to be. Use cards, post-its, or whatever method helps you develop alternatives or group responses. 
 
 \*\***Please describe and document your process.**\*\*
+
+The users in using my device would be players in playing cards(poker cards) games. For example, players want to know if their cards in hand can have the greatest possibility in playing Texas holdem. Assume that the dealer is cheating with one of the player, he can secretly mentioned ice cream in his conversation randomly to trigger device to show either instruction to tell the player 'fold' or 'call' or continue to play, or all-in or etc. And the other way around works the same. Two players can secretly include his or her cards in their speech with secret codes represented. E.g. 'Charles' represent whichever king, and 'Charles and Camilla' means king of hearts and so on. I might need a dict or other to store this glossory.
+
+![IMG_6700](https://user-images.githubusercontent.com/111881174/192197858-cfbbbd28-c733-4d88-bc97-ce52f078e2fb.JPG)
+![IMG_6701](https://user-images.githubusercontent.com/111881174/192197874-7dfbf3a1-87e6-48df-be1f-f409f7ec6f28.JPG)
 
 ### Acting out the dialogue
 

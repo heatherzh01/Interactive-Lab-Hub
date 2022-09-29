@@ -138,7 +138,7 @@ For Part 2, you will redesign the interaction with the speech-enabled device usi
 
 Feedback from peer review:
  - Alan Hsieh: I think the idea is really creative and the video is filmed well, It will be great to filmed the video longer because some people might not be sure about what the story means.
- - Henry Hsin: Heather presented a creative idea on the storyboard and showed it through the video. I think that it would be cool to tell users the card information via other signals such as light vibration, etc. Keep going on!
+ - Henry Wu: Heather presented a creative idea on the storyboard and showed it through the video. I think that it would be cool to tell users the card information via other signals such as light vibration, etc. Keep going on!
  - Grace Nho: Maybe add a previous interaction to let user store the secret code like dictionary using the vocal detect thing.
 
 ## Prep for Part 2

@@ -193,21 +193,17 @@ Try to get at least two people to interact with your system. (Ideally, you would
 Answer the following:
 
 ### What worked well about the system and what didn't?
-\*\**your answer here*\*\*
 
 The system is rather simple and easy. And Apparently the main problem is that the pi cannot easily understand the trigger when I speak to it. Thus, I feel like I might need some more sensitive interactive device and better algorithm but currently I am not familiar with these for now.
 
 ### What worked well about the controller and what didn't?
-\*\**your answer here*\*\*
 
 The only thing is the microphone and the voice detection is fairly hard to use. My program sometimes cannot that accurately catch what i was saying and display them directly. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-\*\**your answer here*\*\*
 
 i think the WoZ interaction is more autonomous and thus can be able to achieve more accurate and better device. I haven't tried to modify my own system with WoZ for now, but i think this is worth trying.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-\*\**your answer here*\*\*
 
 I guess my system is creating a dictionary of triggers and action. I can think of other sensing interactions would be capturing motion but i think this can be rather not spontaneous as motion can be too much and pi might not catch up the speed of human motion changes as we intend to have minor changes in our daily movements. 

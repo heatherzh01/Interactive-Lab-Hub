@@ -144,8 +144,33 @@ Feedback from peer review:
 ## Prep for Part 2
 
 1. What are concrete things that could use improvement in the design of your device? For example: wording, timing, anticipation of misunderstandings...
+
+My previous lab is kind of confusing and could easily cause misunderstanding. Grace provided me with constructive feedback that I should inlude a previous dialogue to store all the secret codes in a dict in .py file with voice interaction(like tell my pi what is what and then the text will show if I trigger  the words by saying "ice cream" which means for example the dealer is holding a "king of hearts" on my program or pi screen, so players can cheat without getting caught)
+
 2. What are other modes of interaction _beyond speech_ that you might also use to clarify how to interact?
+
+I am thinking about using webcam to recognize and track motion changes, but I am not sure how to implement these for now. for example, like if I snap a finger once it means "fold", and clap hands means "call", and some other motion means another hint of poker games. 
+
 3. Make a new storyboard, diagram and/or script based on these reflections.
+
+![IMG_6752](https://user-images.githubusercontent.com/111881174/193361897-a865ec60-0a64-4192-9ca1-9e933dc4436f.jpg)
+
+script with pi:
+dealer: "hey pi!"
+pi: "good morning!"
+dealer: "cheese!"
+pi: "what is cheese?"
+dealer: "bluff!"
+pi: "okay stored!"
+dealer: "ice cream!"
+pi: "what is ice cream?"
+dealer: "all in!"
+pi: "okay stored!"
+dealer: "moonpie!"
+pi: "what is moonpie?"
+dealer: "fold!"
+pi: "okay stored!"
+......
 
 ## Prototype your system
 
@@ -155,6 +180,10 @@ The system should:
 * require participants to speak to it. 
 
 *Document how the system works*
+
+First of all, talk to raspberry pi different codes to store them in file using the webcam microphone. For example, "ice cream" means dealer tells you better fold now "ice cream" --> "fold"; "cheese" means dealer tells you there is a chance you can bluff other players and not losing much money "cheese" --> "bluff"; 
+
+Afterwards, whenever someone mentions the key(e.g. "cheese"), the system will show text in the output, showing "bluff" to tell the straightforward instruction of what to do in this game to win.
 
 *Include videos or screencaptures of both the system and the controller.*
 
@@ -166,16 +195,19 @@ Answer the following:
 ### What worked well about the system and what didn't?
 \*\**your answer here*\*\*
 
-### What worked well about the controller and what didn't?
+The system is rather simple and easy. And Apparently the main problem is that the pi cannot easily understand the trigger when I speak to it. Thus, I feel like I might need some more sensitive interactive device and better algorithm but currently I am not familiar with these for now.
 
+### What worked well about the controller and what didn't?
 \*\**your answer here*\*\*
+
+The only thing is the microphone and the voice detection is fairly hard to use. My program sometimes cannot that accurately catch what i was saying and display them directly. 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
-
 \*\**your answer here*\*\*
 
+i think the WoZ interaction is more autonomous and thus can be able to achieve more accurate and better device. I haven't tried to modify my own system with WoZ for now, but i think this is worth trying.
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
 \*\**your answer here*\*\*
 
+I guess my system is creating a dictionary of triggers and action. I can think of other sensing interactions would be capturing motion but i think this can be rather not spontaneous as motion can be too much and pi might not catch up the speed of human motion changes as we intend to have minor changes in our daily movements. 

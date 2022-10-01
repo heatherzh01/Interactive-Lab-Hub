@@ -198,7 +198,7 @@ The system is rather simple and easy. And Apparently the main problem is that th
 
 ### What worked well about the controller and what didn't?
 
-The only thing is the microphone and the voice detection is fairly hard to use. My program sometimes cannot that accurately catch what i was saying and display them directly. 
+The only thing is the microphone and the voice recognition is fairly hard to use. My program sometimes cannot that accurately catch what i was saying and display them directly. In general, I feel like speech-to-text is harder than text-to-speech.
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 

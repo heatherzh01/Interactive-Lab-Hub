@@ -187,6 +187,11 @@ Afterwards, whenever someone mentions the key(e.g. "cheese"), the system will sh
 
 *Include videos or screencaptures of both the system and the controller.*
 
+
+https://user-images.githubusercontent.com/111881174/193379412-5ff17f6b-3ab3-476f-8877-78f5e9171361.mp4
+
+
+
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
@@ -206,4 +211,4 @@ i think the WoZ interaction is more autonomous and thus can be able to achieve m
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 
-I guess my system is creating a dictionary of triggers and action. I can think of other sensing interactions would be capturing motion but i think this can be rather not spontaneous as motion can be too much and pi might not catch up the speed of human motion changes as we intend to have minor changes in our daily movements. 
+I guess my system is creating a dictionary of triggers and action. I can think of other sensing interactions would be capturing motion but i think this can be rather not spontaneous as motion can be too much and pi might not catch up the speed of human motion changes as we intend to have minor changes in our daily movements. Other than that, there can be many devices that can detect human or other biological data through humidity or temperature, and stroe these data.

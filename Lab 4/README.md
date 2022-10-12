@@ -176,9 +176,27 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 
 **\*\*\*Draw 5 sketches of different ways you might use your sensor, and how the larger device needs to be shaped in order to make the sensor useful.\*\*\***
 
+![AB7DAC51-7159-4EFC-8AA2-33BEDD654086](https://user-images.githubusercontent.com/111881174/195445017-9d144674-415b-490e-934b-f78f1462416e.JPG)
+![IMG_7074](https://user-images.githubusercontent.com/111881174/195445184-f899456a-bc49-48ed-bf07-dd8bebb5b693.JPG)
+![IMG_7075](https://user-images.githubusercontent.com/111881174/195445219-903b468c-38ea-49c9-abf5-e2db004fd553.JPG)
+![IMG_7076](https://user-images.githubusercontent.com/111881174/195445265-f603ae66-1d40-4595-9eda-6c2fb3b65a70.JPG)
+![IMG_7073](https://user-images.githubusercontent.com/111881174/195445277-86c11d84-4bd3-4124-8abf-8a72150941be.JPG)
+
+
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
+1. this first sketch would be hard to refill the water bottle if the person is far away, like i cannot pour into the flower vase if the water in the refill bottle runs out. I need to change it into a water source like a water pipe. 
+
+2. second sketch is hotpot soup refill. this idea is very similar to the last one but i feel like it can be harder to detect boiling water height. 
+
+3. this one is the easiest and most approachable sketch. I can make a prototype of a eyeglasses that has space for the sensor.
+
+4. this one can be very tricky and for now I don't have the sense HAT sensor so I cannot properly think of a way to prototype this one. and it could be hard to use cardboard prototype. it might be better to do a digital prototype with this idea.
+
+5. This one can be an easy option for cardboard prototype (a phone with distant sensor together)
+
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+
 
 
 ### Part D

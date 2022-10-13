@@ -196,6 +196,7 @@ Usually, sensors need to positioned in specific locations or orientations to mak
 5. This one can be an easy option for cardboard prototype (a phone with distant sensor together)
 
 **\*\*\*Pick one of these designs to prototype.\*\*\***
+![IMG_7078](https://user-images.githubusercontent.com/111881174/195466762-4eb42f71-9f5a-4746-bdb2-d37f0fb3ac4d.JPG)
 
 
 
@@ -238,16 +239,24 @@ Here is an example:
 Think about how you want to present the information about what your sensor is sensing! Design a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
  
 **\*\*\*Sketch 5 designs for how you would physically position your display and any buttons or knobs needed to interact with it.\*\*\***
+![IMG_7079](https://user-images.githubusercontent.com/111881174/195468037-687e84c3-6887-45c2-ac07-1c7d4046e820.JPG)
+
+
 
 **\*\*\*What are some things these sketches raise as questions? What do you need to physically prototype to understand how to anwer those questions?\*\*\***
 
-**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+i only managed to figure out three designs to position my display for my color telling glasses. 
+I need to see which position among all three designs of my sensor would be best for user. i need physical prototype to figure out where to place the sensor.
 
+**\*\*\*Pick one of these display designs to integrate into your prototype.\*\*\***
+I will pick the middle one because that way user can face directly towards object.
 **\*\*\*Explain the rationale for the design.\*\*\*** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+My rationale would be the sensor should be directly faced towards the object thus user can face the object directly and recognize the correct color or rgb and show this on raspberry pi screen without having to turn their head left or right to other directions. 
 
 Build a cardbord prototype of your design.
-
 **\*\*\*Document your rough prototype.\*\*\***
+![IMG_7080](https://user-images.githubusercontent.com/111881174/195470151-bedbcd88-4d7e-442b-92f4-ab0194156a42.JPG)
+![IMG_7081](https://user-images.githubusercontent.com/111881174/195470160-59da50b6-b28f-42f9-8523-3bf7ff90610e.JPG)
 
 
 LAB PART 2

@@ -273,6 +273,7 @@ Following exploration and reflection from Part 1, complete the "looks like," "wo
 
 3. Make the shape better fit a human being's head.
 ![IMG_7132](https://user-images.githubusercontent.com/111881174/196051325-de4542b9-aa5d-4cc2-984c-3dfda10d866d.jpg)
+![IMG_7134](https://user-images.githubusercontent.com/111881174/196051961-3998fb24-3fd7-4038-8bd9-f010114aa9d2.JPG)
 
 
 'Works Like':

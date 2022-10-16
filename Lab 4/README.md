@@ -265,6 +265,32 @@ LAB PART 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design, reiterated below.
 
+'Looks Like':
+
+1. I believe the glasses can have larger lenses and in the middle can be inlaid with sensors to increase stability. 
+
+2. Change the look from round shapes to square shapes to better hold the sensor.
+
+3. Make the shape better fit a human being's head.
+![IMG_7132](https://user-images.githubusercontent.com/111881174/196051325-de4542b9-aa5d-4cc2-984c-3dfda10d866d.jpg)
+
+
+'Works Like':
+
+1. New improvements would be adding features to help vision-disordered people or people with color weakness with audio assistance. 
+for example: tells left when something from left is here and tell color forward using different buttons to control.
+
+2. things can do: speak and show color and direction on pi and speaker.
+
+'Acts Like':
+1. hit buttons to see: first button is to control directions and second button is to control color. 
+
+2. first button to see if something is coming out from which direction: ex. something from left is coming: show left on pi and speaks left through speaker as well. 
+
+3. second button to see if anything has specific color like red or blue or other rgb. ex. cannot make sure if this is red or green. tell the user 'red' on speaker!
+![IMG_7133](https://user-images.githubusercontent.com/111881174/196051332-939b5cb4-6609-4d77-b0de-e8d236e03c92.jpg)
+
+
 ### Part E (Optional)
 ### Servo Control with Joystick
 
@@ -296,6 +322,7 @@ We encourage you to try using these controls, **while** paying particular attent
 
 ### Part F
 ### Record
+
 
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.

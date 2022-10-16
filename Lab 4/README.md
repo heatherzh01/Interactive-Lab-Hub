@@ -325,8 +325,37 @@ We encourage you to try using these controls, **while** paying particular attent
 ### Record
 
 
+https://user-images.githubusercontent.com/111881174/196052180-6aac2992-9aad-4ff7-8d47-3dfd28435781.MP4
+
+
 Document all the prototypes and iterations you have designed and worked on! Again, deliverables for this lab are writings, sketches, photos, and videos that show what your prototype:
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
+
+'Looks Like':
+
+1. I believe the glasses can have larger lenses and in the middle can be inlaid with sensors to increase stability. 
+
+2. Change the look from round shapes to square shapes to better hold the sensor.
+
+3. Make the shape better fit a human being's head.
+![IMG_7132](https://user-images.githubusercontent.com/111881174/196051325-de4542b9-aa5d-4cc2-984c-3dfda10d866d.jpg)
+![IMG_7134](https://user-images.githubusercontent.com/111881174/196051961-3998fb24-3fd7-4038-8bd9-f010114aa9d2.JPG)
+
+
+'Works Like':
+
+1. New improvements would be adding features to help vision-disordered people or people with color weakness with audio assistance. 
+for example: tells left when something from left is here and tell color forward using different buttons to control.
+
+2. things can do: speak and show color and direction on pi and speaker.
+
+'Acts Like':
+1. hit buttons to see: first button is to control directions and second button is to control color. 
+
+2. first button to see if something is coming out from which direction: ex. something from left is coming: show left on pi and speaks left through speaker as well. 
+
+3. second button to see if anything has specific color like red or blue or other rgb. ex. cannot make sure if this is red or green. tell the user 'red' on speaker!
+![IMG_7133](https://user-images.githubusercontent.com/111881174/196051332-939b5cb4-6609-4d77-b0de-e8d236e03c92.jpg)
 

@@ -101,11 +101,22 @@ pi@ixe00:~/openCV-examples/object-detection $ python detect.py
 ```
 
 **\*\*\*Try each of the following four examples in the `openCV-examples`, include screenshots of your use and write about one design for each example that might work based on the individual benefits to each algorithm.\*\*\***
-![IMG_7251](https://user-images.githubusercontent.com/111881174/197681655-286468dc-671f-41b0-a87a-100af9a7b92e.jpg)
-![IMG_7252](https://user-images.githubusercontent.com/111881174/197681669-33b95e5c-713d-4ab1-857d-371e33b9b757.jpg)
-![IMG_7253](https://user-images.githubusercontent.com/111881174/197681680-aea276fb-f4df-40ee-917f-da7daa957dca.jpg)
-![IMG_7254](https://user-images.githubusercontent.com/111881174/197681693-1e693330-eb6d-4c56-9a05-8d55ecad1d96.JPG)
 
+Using contour detecting:
+![IMG_7251](https://user-images.githubusercontent.com/111881174/197681655-286468dc-671f-41b0-a87a-100af9a7b92e.jpg)
+one example of design could be making sand drawings and the contour detecting can be used as a quick approach for showing silhouettes for beginner artists.
+
+using face detecting:
+![IMG_7252](https://user-images.githubusercontent.com/111881174/197681669-33b95e5c-713d-4ab1-857d-371e33b9b757.jpg)
+one design could be detecting different body parts and detect whether it is human or not for some vision impaired people.
+
+using flow-detection:
+![IMG_7253](https://user-images.githubusercontent.com/111881174/197681680-aea276fb-f4df-40ee-917f-da7daa957dca.jpg)
+optical flow can be applied in tracking car motion detecting. Instead of using GPS, this can be very helpful in just tracking a certain object's motion.
+
+using object-detection:
+![IMG_7254](https://user-images.githubusercontent.com/111881174/197681693-1e693330-eb6d-4c56-9a05-8d55ecad1d96.JPG)
+object detection can be rather simple. one design can be detecting if something is missing. For example, some people might have many things on their table, and a webcam can always detect and count how many objects are there. And a single thing missing can be detected by this.
 
 
 #### Filtering, FFTs, and Time Series data. 

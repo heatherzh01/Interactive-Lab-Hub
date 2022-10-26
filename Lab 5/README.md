@@ -144,9 +144,19 @@ Using the microphone, try one of the following:
 
 **1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
 
+And volume change would always be around 0.0, but when i make sound, this will change, for example like this
+
+Volume Change: 971.1
+Loudest Frqeuncy: 29.0
+RMS volume: 701.5
+
 **2. Set up a running averaging** Can you set up a running average over one of the variables that are being calculated.[moving average](https://en.wikipedia.org/wiki/Moving_average)
 
+I think a running average is very suitable for this. I would pick volume change as the variable for calculating moving average.
+
 **3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
+
+I am not sure if there is a peek value. I have observed values above 2000.
 
 For technical references:
 
@@ -156,6 +166,7 @@ For technical references:
 
 
 **\*\*\*Include links to your code here, and put the code for these in your repo--they will come in handy later.\*\*\***
+https://github.com/heatherzh01/Interactive-Lab-Hub/blob/Fall2022/Lab%205/ExampleAudioFFT.py
 
 ### (Optional Reading) Introducing Additional Concepts
 The following sections ([MediaPipe](#mediapipe) and [Teachable Machines](#teachable-machines)) are included for your own optional learning. **The associated scripts will not work on Fall 2022's Pi Image, so you can move onto part B.** However, you are welcome to try it on your personal computer. If this functionality is desirable for your lab or final project, we can help you get a different image running the last OS and version of python to make the following code work.

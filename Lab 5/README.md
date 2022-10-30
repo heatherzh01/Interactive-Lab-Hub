@@ -304,14 +304,37 @@ maybe try better sensors to optimize the process.
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
 During the lecture, we mentioned questions to help characterize a material:
 * What can you use X for?
+
+we can use this device to check if a person's entire face is presented on the screen in many uses, like interview to make better impression, zoom meeting for showing more respect, etc.
+
 * What is a good environment for X?
+
+a good environment would be clear background with good light and more steady movement.
+
 * What is a bad environment for X?
+
+bad environment would be messy background and dim light and many back and forth movements.
+
 * When will X break?
+
+when webcam is broken or the bad environment is happening a lot.
+
 * When it breaks how will X break?
+
+the system might not be responding and pi can be really hot.
+
 * What are other properties/behaviors of X?
+
+apart from sending alert messages, it can also turn on speaker mode to vocally tell user they are not in screen.
+
 * How does X feel?
 
+This will make users feel consistently alerted if they are in the right position of the camera screen.
+
+
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
+
+
 
 ### Part 2.
 

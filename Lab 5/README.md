@@ -256,6 +256,8 @@ This might take a while to get fully installed. After installation, connect your
 * Fill out the ``Contextual Interaction Design Tool`` sheet.[Found here.](ThinkingThroughContextandInteraction.png)
 
 **\*\*\*Describe and detail the interaction, as well as your experimentation here.\*\*\***
+![ThinkingThroughContextandInteraction](https://user-images.githubusercontent.com/111881174/198897324-636e0a60-1b6b-4fa1-987b-a1ff157087f1.png)
+
 
 ### Part C
 ### Test the interaction prototype
@@ -263,15 +265,38 @@ This might take a while to get fully installed. After installation, connect your
 Now flight test your interactive prototype and **note down your observations**:
 For example:
 1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+
+It is supposed to send alert messages if there is no full face showing in the screen.
+
+2. When does it fail?
+
+it would fail when there is no face showing up or too close to the webcam.
+
+3. When it fails, why does it fail?
+
+it would fail because the movement is too fast and raspberry pi is not responding very fast with the webcam.
+
+4. Based on the behavior you have seen, what other scenarios could cause problems?
+
+light should be bright otherwise webcam is hard to detect; the distance with the webcam too close or too far away can cause problem.
+
 
 **\*\*\*Think about someone using the system. Describe how you think this will work.\*\*\***
 1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+
+They are probably aware of the uncertainties because the system is processed by pi and webcam so it is going to be really slow.
+
+2. How bad would they be impacted by a miss classification?
+
+It can be really bad because for example in an interview, there are always alert messages telling you to adjust position in order to fit in the screen, you cannot focus on the interview questions.
+
+3. How could change your interactive system to address this?
+
+I can change the interactive system into maybe object detection that way it only shows if there is an object(face) there.
+
+4. Are there optimizations you can try to do on your sense-making algorithm.
+
+maybe try better sensors to optimize the process.
 
 ### Part D
 ### Characterize your own Observant system

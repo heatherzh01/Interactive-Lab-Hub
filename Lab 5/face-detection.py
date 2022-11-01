@@ -62,5 +62,6 @@ while(True):
       break
 
 cv2.imwrite('faces_detected.jpg',img)
+cv2.putText(img, "please enter back to center of the screen", (x,y), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2, cv2.LINE_AA)
 cv2.destroyAllWindows()
 

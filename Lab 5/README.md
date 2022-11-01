@@ -335,13 +335,17 @@ This will make users feel consistently alerted if they are in the right position
 **\*\*\*Include a short video demonstrating the answers to these questions.\*\*\***
 
 
-https://user-images.githubusercontent.com/111881174/198906370-e4b0a8eb-64b3-45d0-ac5b-82dfb8090dd5.mov
-
-
-
 
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
 **\*\*\*Include a short video demonstrating the finished result.\*\*\***
+
+i received feedback from my friend Grace and she said I can use speech to display the text message of alert to the user. I think this is a good idea as well, because I just learned accessibility for people with impairment and this can be modified into different approach for people with different impairment. 
+
+For example, people with vision impairment can use the speech option to alert them to stay in the center of the screen. And others can probably change to other options like words in text box. 
+
+below is a demo video of the text box:
+
+https://user-images.githubusercontent.com/111881174/198906370-e4b0a8eb-64b3-45d0-ac5b-82dfb8090dd5.mov

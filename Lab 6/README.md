@@ -1,6 +1,7 @@
 # Little Interactions Everywhere
 
-**NAMES OF COLLABORATORS HERE**
+**Runze Zhang(rz387)** 
+
 
 ## Prep
 
@@ -196,6 +197,12 @@ The architecture would be explained down here below.
 Our design is very easy in terms of user interface. If users encounter our design, they only need to wave their hands up/down or left/right to the gesture sensor to suggest which remote signals they want to send, and raspberry pi would help them to inform the server side to move to previous or next slide of the presentation slides. Up/left means previous slide and down/right means next slide. 
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
+
+
+
+https://user-images.githubusercontent.com/111881174/200208465-042918d0-e835-4c77-bc7e-37730671c6a8.mp4
+
+
 
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 

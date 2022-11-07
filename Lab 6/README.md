@@ -1,6 +1,6 @@
 # Little Interactions Everywhere
 
-**Runze Zhang(rz387) Hongjiao Zhang(hz452)** 
+**Runze Zhang(rz387) Hongjiao Zhang(hz452) Jiaqi Liu (jl3442)** 
 
 
 ## Prep

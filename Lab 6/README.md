@@ -96,6 +96,18 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+These are the idea we think of:
+
+1. Monitor computer screen color with color sensor to change ambient lighting.
+
+2. Monitor the ambient light level with a light sensor to change the computer screen brightness.
+
+3. Put an accelerometer on your arm to monitor arm movement to play somatosensory games.
+
+4. Monitor speaker gestures with gesture sensors to switch slides.
+
+5. Use the distance sensor to monitor the distance between the person watching the TV and the TV, so as to avoid people watching too close to the TV and hurting the eyes (especially for children).
+
 ### Part C
 ### Streaming a Sensor
 
@@ -117,7 +129,14 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
 
+This is our setup picture:
+![200203157-625f113c-35ae-4ae8-a956-3668cbe4b8d0](https://user-images.githubusercontent.com/111881174/200205464-fe06238c-a249-40af-8552-3a226c3cd242.jpeg)
+
+
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+We picked APDS9960 Gesture Sensor
+![200203163-740aae1d-0f16-4625-840a-db3b815150ba](https://user-images.githubusercontent.com/111881174/200205505-3908d63b-b728-4f98-b8bd-0982626f9944.jpeg)
 
 
 ### Part D
@@ -151,6 +170,11 @@ Of course not! You can go to [https://one-true-colornet.glitch.me/](https://one-
 
 **\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
 
+Yes we can. Here is the screenshot.
+![image](https://user-images.githubusercontent.com/111881174/200205613-aaa85837-14b2-4bb2-a1e9-1ad95659d8d4.png)
+
+
+
 
 ### Part E
 ### Make it your own
@@ -159,7 +183,13 @@ Find at least one class (more are okay) partner, and design a distributed applic
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
 
+Our design is gesture remote control to switch next slide and previous slide of a powerpoint slides. We think it is very necessary and cool to implement this short design because sometimes a remote control device might be out of battery or too long of a distance or might just be the presenter forgets to bring a remote control. That way it would be very difficult to move on with their presentations. With our design, we can remotely control the presentation moving forward and backward with simple gestures to make people lives much easier.
+
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+
+The architecture would be explained down here below.
+![image](https://user-images.githubusercontent.com/111881174/200205186-2ee01867-966f-429f-a6c3-077185de0b8b.png)
+
 
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
 
